@@ -1,0 +1,52 @@
+/* ============intro style============ */
+
+.intro-content {
+    padding: 70px 0px;
+}
+
+.intro__inner h3 {
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.intro__inner a {
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    margin: 10px 0px;
+}
+
+.intro__inner p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.intro-content__bottom span {
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+    color: #f92a05;
+    font-weight: 600;
+}
+
+.intro-content__bottom span a {
+    display: inline;
+    color: blue;
+}
+
+@media only screen and (max-width: 767px) {
+    .intro-content {
+        padding: 50px 0px;
+    }
+    .intro__inner h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .intro__inner a,
+    .intro__inner p,
+    .intro-content__bottom span {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

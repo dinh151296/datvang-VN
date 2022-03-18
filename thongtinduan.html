@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>datvangvietnam</title>
+
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/common.css" type="text/css">
+    <link rel="stylesheet" href="assets/style/tt-du-an.css" type="text/css">
+</head>
+
+<body>
+    <!-- start header -->
+    <header>
+        <h1 class="header__logo">
+            <a href="index.html">
+                <img src="assets/img/logo.png" alt="">
+            </a>
+        </h1>
+        <div class="header__r">
+            <nav>
+                <ul class="main-menu">
+                    <li><a class="nav__link" href="intro.html">Giới thiệu</a></li>
+                    <li>
+                        <a class="nav__link link__info" href="">Thông tin QH<img src="assets/img/icon/fi_chevron-down-12.png" alt=""></a>
+                        <ul class="sub-menu sub-menu__info">
+                            <li>
+                                <a href="">Quy hoạch chung</a>
+                            </li>
+                            <li>
+                                <a href="">Quy hoạch phân khu</a>
+                            </li>
+                            <li>
+                                <a href="">Quy hoạch chi tiết</a>
+                            </li>
+                            <li>
+                                <a href="">Quy hoạch khác</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a class="nav__link" href="thongtinduan.html">Thông tin dự án</a></li>
+                    <li><a class="nav__link" href="">Giá đất</a></li>
+                    <li>
+                        <a class="nav__link link__document" href="">Tài liệu<img src="assets/img/icon/fi_chevron-down-12.png" alt=""></a>
+                        <ul class="sub-menu sub-menu__document">
+                            <li>
+                                <a href="quytrinhdautuduan.html">Quy trình đầu tư dự án</a>
+                            </li>
+                            <li>
+                                <a href="">Văn bản pháp lý</a>
+                            </li>
+                            <li>
+                                <a href="">Quy chế quản lý QH - KT</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a class="nav__link" href="">Hỏi đáp</a></li>
+                    <li><a class="nav__link" href="contact.html">Liên hệ</a></li>
+                </ul>
+            </nav>
+            <div class="header__login logined">
+                <!-- <span class="register" data-toggle="modal" data-target="#modalregister">Đăng ký</span>
+                <span>/</span>
+                <span class="login" data-toggle="modal" data-target="#modallogin">Đăng nhập</span> -->
+                <div class="logined-img">
+                    <img src="assets/img/icon/dollar-100.png" alt="">
+                </div>
+                <p>thanhtung.top</p>
+            </div>
+        </div>
+        <div class="burger-sp">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+    <!-- end-header -->
+    <main>
+        <section class="page__bg">
+            <div class="container">
+                <div class="page__bg-inner">
+                    <h2 class="page__title">Thông tin dự án</h2>
+                    <div class="path">
+                        <a href="">Trang chủ</a>
+                        <span>></span>
+                        <span>Thông tin dự án</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page__form-search">
+            <div class="container">
+                <div class="form-search">
+                    <form action="">
+                        <div class="form-group">
+                            <select class="select01 form-control browser-default custom-select">
+                                <option selected>Loại quy hoạch</option>
+                                <option value="1">Quy hoạch chung</option>
+                                <option value="2">Quy hoạch phân khu</option>
+                                <option value="3">Quy hoạch khác</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select class="select02 form-control browser-default custom-select ">
+                                <option selected>Khu vực</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Tên quy hoạch">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Địa chỉ cụ thể">
+                        </div>
+                        <div class="refresh">
+                            <img src="assets/img/icon/fi_refresh-ccw-30.png" alt="">
+                        </div>
+                        <div class="form-group form-submit">
+                            <button type="submit" class="btn">Tìm kiếm</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- end page__bg -->
+        <section class="page__content">
+            <div class="container">
+                <div class="content__inner">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="project__item">
+                                <img src="assets/img/duan-01.jpg" alt="">
+                                <span class="project-status">
+                                    Đang mở bán
+                                </span>
+                                <div class="project__content">
+                                    <h3>Imperia Smart City</h3>
+                                    <p>Tây Mỗ, Nam Từ Liêm, Hà Nội</p>
+                                    <p>Giá: 40 tr/m²</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="project__item">
+                                <img src="assets/img/duan-02.jpg" alt="">
+                                <span class="project-status">
+                                    Đang mở bán
+                                </span>
+                                <div class="project__content">
+                                    <h3>Imperia Smart City</h3>
+                                    <p>Tây Mỗ, Nam Từ Liêm, Hà Nội</p>
+                                    <p>Giá: 40 tr/m²</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="project__item">
+                                <img src="assets/img/duan-03.jpg" alt="">
+                                <span class="project-status">
+                                    Đang mở bán
+                                </span>
+                                <div class="project__content">
+                                    <h3>Imperia Smart City</h3>
+                                    <p>Tây Mỗ, Nam Từ Liêm, Hà Nội</p>
+                                    <p>Giá: 40 tr/m²</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="project__item">
+                                <img src="assets/img/duan-04.jpg" alt="">
+                                <span class="project-status">
+                                    Đang mở bán
+                                </span>
+                                <div class="project__content">
+                                    <h3>Imperia Smart City</h3>
+                                    <p>Tây Mỗ, Nam Từ Liêm, Hà Nội</p>
+                                    <p>Giá: 40 tr/m²</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="project__item">
+                                <img src="assets/img/duan-05.jpg" alt="">
+                                <span class="project-status">
+                                    Đang mở bán
+                                </span>
+                                <div class="project__content">
+                                    <h3>Imperia Smart City</h3>
+                                    <p>Tây Mỗ, Nam Từ Liêm, Hà Nội</p>
+                                    <p>Giá: 40 tr/m²</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="project__item">
+                                <img src="assets/img/duan-06.jpg" alt="">
+                                <span class="project-status">
+                                    Đang mở bán
+                                </span>
+                                <div class="project__content">
+                                    <h3>Imperia Smart City</h3>
+                                    <p>Tây Mỗ, Nam Từ Liêm, Hà Nội</p>
+                                    <p>Giá: 40 tr/m²</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="project__item">
+                                <img src="assets/img/duan-01.jpg" alt="">
+                                <span class="project-status">
+                                    Đang mở bán
+                                </span>
+                                <div class="project__content">
+                                    <h3>Imperia Smart City</h3>
+                                    <p>Tây Mỗ, Nam Từ Liêm, Hà Nội</p>
+                                    <p>Giá: 40 tr/m²</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="project__item">
+                                <img src="assets/img/duan-01.jpg" alt="">
+                                <span class="project-status">
+                                    Đang mở bán
+                                </span>
+                                <div class="project__content">
+                                    <h3>Imperia Smart City</h3>
+                                    <p>Tây Mỗ, Nam Từ Liêm, Hà Nội</p>
+                                    <p>Giá: 40 tr/m²</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="project__item">
+                                <img src="assets/img/duan-01.jpg" alt="">
+                                <span class="project-status">
+                                    Đang mở bán
+                                </span>
+                                <div class="project__content">
+                                    <h3>Imperia Smart City</h3>
+                                    <p>Tây Mỗ, Nam Từ Liêm, Hà Nội</p>
+                                    <p>Giá: 40 tr/m²</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination">
+                    <span class="pre">
+                        <img src="assets/img/icon/b-firt-18.png" alt="">
+                    </span>
+                    <span class="is__active">1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>5</span>
+                    <span class="next">
+                        <img src="assets/img/icon/b-last-18.png" alt="">
+                    </span>
+                </div>
+            </div>
+        </section>
+        <div class="banner-price">
+            <div class="container">
+                <div class="banner-content">
+                    <div class="banner__inner">
+                        <h3>Tra cứu thông tin giá đất</h3>
+                        <div class="banner-input">
+                            <input class="form-control" type="text" placeholder="Nhập địa điểm tra cứu">
+                            <img src="assets/img/icon/b-search-24.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end banner-price-->
+        <section class="blogs">
+            <div class="container">
+                <div class="blogs__title">
+                    <h3>Tin dự án</h3>
+                    <a href="">Xem thêm</a>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="blog__big">
+                            <img src="assets/img/blog-big.jpg" alt="">
+                            <h3>Quảng Nam - Khu đô thị Bắc Hội An - The North Hoi An Urban</h3>
+                            <div class="date">
+                                <img src="assets/img/icon/calendar.png" alt="">
+                                <span>30 tháng 5, 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="blog__list">
+                            <div class="blog__item">
+                                <img src="assets/img/blog5.jpg" alt="">
+                                <div class="blog__item-text">
+                                    <h4>Bắc Ninh - Khu đô thị QCL Yên Phong</h4>
+                                    <div class="date">
+                                        <img src="assets/img/icon/calendar.png" alt="">
+                                        <span>30 tháng 5, 2021</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog__item">
+                                <img src="assets/img/blog6.jpg" alt="">
+                                <div class="blog__item-text">
+                                    <h4>Bình Dương - Khu đô thị Thăng Long Residence</h4>
+                                    <div class="date">
+                                        <img src="assets/img/icon/calendar.png" alt="">
+                                        <span>30 tháng 5, 2021</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog__item">
+                                <img src="assets/img/blog5.jpg" alt="">
+                                <div class="blog__item-text">
+                                    <h4>Bắc Ninh - Khu đô thị QCL Yên Phong</h4>
+                                    <div class="date">
+                                        <img src="assets/img/icon/calendar.png" alt="">
+                                        <span>30 tháng 5, 2021</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog__item">
+                                <img src="assets/img/blog5.jpg" alt="">
+                                <div class="blog__item-text">
+                                    <h4>Bắc Ninh - Khu đô thị QCL Yên Phong</h4>
+                                    <div class="date">
+                                        <img src="assets/img/icon/calendar.png" alt="">
+                                        <span>30 tháng 5, 2021</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end blogs -->
+        <section class="img-slider">
+            <div class="container">
+                <h3 class="title-left">Chủ đầu tư tiêu biểu</h3>
+                <div class="slider-content">
+                    <div class="slider__item">
+                        <img src="assets/img/vin.png" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="assets/img/flc.png" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="assets/img/vova.png" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="assets/img/geleximco.png" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="assets/img/tnr.png" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="assets/img/dat-xanh.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="bannerq-a">
+            <div class="container">
+                <a class="bannerqa" href=""><img src="assets/img/q&a-bg.png" alt=""></a>
+            </div>
+        </div>
+    </main>
+    <!-- end-main -->
+
+    <footer>
+        <div class="top-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="top-footer__column">
+                            <h3>Quy hoạch Hà Nội</h3>
+                            <ul>
+                                <li>
+                                    <a href="">QHC - Thủ đô Hà Nội</a>
+                                </li>
+                                <li>
+                                    <a href="">QHC - Đô thị Hòa Lạc</a>
+                                </li>
+                                <li>
+                                    <a href="">QHC - Đô thị vệ tinh Phú Xuyên</a>
+                                </li>
+                                <li>
+                                    <a href="">QHC - Đô thị vệ tinh Xuân Mai</a>
+                                </li>
+                                <li>
+                                    <a href="">QHC - Thị trấn sinh thái Quốc Oai</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="top-footer__column">
+                            <h3>Quy hoạch TP.HCM</h3>
+                            <ul>
+                                <li>
+                                    <a href="">Khu đô thị trung tâm TP.HCM</a>
+                                </li>
+                                <li>
+                                    <a href="">Khu đô thị Đông TP.HCM</a>
+                                </li>
+                                <li>
+                                    <a href="">Khu đô thị Tây TP.HCM</a>
+                                </li>
+                                <li>
+                                    <a href="">Khu đô thị Nam TP.HCM</a>
+                                </li>
+                                <li>
+                                    <a href="">Khu đô thị Bắc TP.HCM</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="top-footer__column">
+                            <h3>Thông tin quy hoạch</h3>
+                            <ul>
+                                <li>
+                                    <a href="">Quy hoạch vùng</a>
+                                </li>
+                                <li>
+                                    <a href="">Quy hoạch chung</a>
+                                </li>
+                                <li>
+                                    <a href="">Quy hoạch phân khu</a>
+                                </li>
+                                <li>
+                                    <a href="">Quy hoạch chi tiết</a>
+                                </li>
+                                <li>
+                                    <a href="">Quy chế quản lý QH-KT</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="top-footer__column">
+                            <h3>Thông tin giá đất</h3>
+                            <ul>
+                                <li>
+                                    <a href="">Thông tin giá đất Hà Nội</a>
+                                </li>
+                                <li>
+                                    <a href="">Thông tin giá đất TP.HCM</a>
+                                </li>
+                                <li>
+                                    <a href="">Thông tin giá đất Đà Nẵng</a>
+                                </li>
+                                <li>
+                                    <a href="">Thông tin giá đất Quảng Ninh</a>
+                                </li>
+                                <li>
+                                    <a href="">Thông tin giá đất Bắc Ninh</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="main-footer__column column01">
+                            <h3>Đất Vàng Việt Nam</h3>
+                            <div class="footer-add">
+                                <img src="assets/img/icon/filled-map-pin-16.png" alt=""><span>89A, Tầng 1, Tòa E, Chung cư Vinaconex 1 Khuất Duy Tiến, Thanh Xuân, Hà Nội.</span>
+                            </div>
+                            <div class="footer-add">
+                                <img src="assets/img/icon/filled-phone-call-16.png" alt=""><span>096.502.1561</span>
+                            </div>
+                            <div class="footer-add">
+                                <img src="assets/img/icon/filled-email-16.png" alt=""><span>info@datvangvietnam.net</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-2 column02">
+                        <div class="main-footer__column">
+                            <h3>Công ty</h3>
+                            <ul>
+                                <li><a href="">Giới thiệu</a></li>
+                                <li><a href="">Hỏi đáp</a></li>
+                                <li><a href="">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 column03">
+                        <div class="main-footer__column">
+                            <h3>Dịch vụ</h3>
+                            <ul>
+                                <li><a href="">Thông tin quy hoạch</a></li>
+                                <li><a href="">Thông tin dự án</a></li>
+                                <li><a href="">Thông tin giá đất</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="main-footer__column">
+                            <h3>Theo dõi chúng tôi</h3>
+                            <div class="footer-icon">
+                                <a href=""> <img src="assets/img/icon/Facebook - Negative.png" alt=""></a>
+                                <a href=""> <img src="assets/img/icon/Pinterest - Negative.png" alt=""></a>
+                                <a href=""> <img src="assets/img/icon/Instagram - Negative.png" alt=""></a>
+                                <a href=""> <img src="assets/img/icon/Google - Negative.png" alt=""></a>
+                            </div>
+                            <img class="like-inbox" src="assets/img/like-box.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copy-right">
+            <div class="container">
+                <div class="copy-right__inner">
+                    <p>Copyright © 2021 - Đất Vàng Việt Nam. All Rights Reserved.</p>
+                    <ul class="copy-right__inner-r">
+                        <li><a href="">Hướng dẫn sử dụng</a></li>
+                        <li>
+                            <a class="nav__link-footer" href="">Tư vấn<img src="assets/img/icon/fi_chevron-down-12.png" alt=""></a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="">Tư vấn quy hoạch</a>
+                                </li>
+                                <li>
+                                    <a href="">Tư vấn nhà ở</a>
+                                </li>
+                                <li>
+                                    <a href="">Tư vấn nội thất</a>
+                                </li>
+                                <li>
+                                    <a href="">Tư vấn ngoại thất</a>
+                                </li>
+                                <li>
+                                    <a href="">TV cấp phép xây dựng</a>
+                                </li>
+                                <li>
+                                    <a href="">Tư vấn phong thủy</a>
+                                </li>
+                                <li>
+                                    <a href="">Dự tính chi phí làm nhà</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="hotline-chat">
+        <a href="#">
+            <img src="assets/img/icon/hotline.png" alt="">
+        </a>
+        <a href="#">
+            <img src="assets/img/icon/chat.png" alt="">
+        </a>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

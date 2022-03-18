@@ -1,0 +1,407 @@
+/* Thông tin quy hoạch style */
+
+.form-search {
+    margin-top: 11px;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group {
+    margin-bottom: 0px;
+}
+
+.form-group select {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #8f8686;
+    height: 50px !important;
+    margin-right: 15px;
+    border: 1px solid #C0C1C4
+}
+
+.form-group .select01 {
+    width: 186px;
+}
+
+.form-group .select02 {
+    width: 205px;
+}
+
+.form-group select option {
+    font-size: 16px;
+    color: #4E4E4E;
+}
+
+.form-group input {
+    margin-bottom: 10px;
+    width: 285px;
+    font-size: 16px;
+    margin-right: 15px;
+    height: 50px;
+    color: #888888;
+    border: 1px solid #C0C1C4
+}
+
+.form-group:nth-child(4) input {
+    margin-right: 0px;
+}
+
+.refresh {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.refresh img {
+    width: 20px;
+    margin: 0 20px;
+}
+
+.form-submit {
+    margin-bottom: 10px;
+}
+
+.form-submit button[type="submit"] {
+    width: 103px;
+    height: 50px;
+    background: #E85C3D;
+    color: #fff;
+}
+
+
+/* end form-search */
+
+
+/* project-list */
+
+.project-list {
+    margin-top: 50px;
+}
+
+.project-list h3 {
+    font-size: 24px;
+    color: #4E4E4E;
+    margin-bottom: 30px;
+}
+
+.block {
+    background-color: #EBEBEB;
+    border-radius: 8px;
+    padding: 10px 10px 20px 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border: 1px solid #EBEBEB;
+}
+
+.block a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.block:hover a img {
+    transform: scale(0.9);
+}
+
+.block img {
+    width: 100%;
+    transition: 0.2s;
+}
+
+.block p {
+    font-size: 18px;
+    text-align: center;
+    color: #4E4E4E;
+    padding: 15px 20px 0px;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination span {
+    font-size: 16px;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.radius50 span {
+    border-radius: 50%;
+}
+
+.pagination span:hover {
+    opacity: 0.7;
+}
+
+.pagination .is__active {
+    background-color: #E8513D;
+    border-color: #E8513D;
+    color: #fff;
+}
+
+
+/* project-list */
+
+.page-wrapper {
+    display: flex;
+    height: 964px;
+    min-height: 100vh;
+    align-items: stretch;
+}
+
+#sidebar {
+    position: relative;
+}
+
+.tab__bottom {
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 0;
+}
+
+.tab__bottom-item {
+    padding: 12px 10px;
+    border-top: 1px solid #EBEBEB;
+}
+
+.tab__bottom-item img {
+    width: 16px;
+    margin-right: 6px;
+}
+
+.tab__bottom-item span {
+    font-size: 16px;
+    color: #4E4E4E;
+}
+
+.sidebar-wrapper {
+    width: 28%;
+    max-width: 405px;
+    min-width: 330px;
+    transition: 0.2s;
+}
+
+.page-content {
+    flex: 1;
+    position: relative;
+}
+
+.map-search {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 15px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.map__input {
+    position: relative;
+}
+
+.map__input input {
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    color: #888888;
+    padding-left: 40px;
+}
+
+.map__input img {
+    position: absolute;
+    width: 15px !important;
+    height: auto !important;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12.5px;
+}
+
+.map__icon {
+    display: flex;
+    align-items: center;
+}
+
+.map__icon-item {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+.map__icon-item img {
+    width: 20px !important;
+    height: auto !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.page-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav-tabs {
+    border-bottom: 2px solid #1687C5;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    border-bottom: 2px solid #E5E7F2;
+    background-color: #E5E7F2;
+    border-top: 3px solid #EA4435;
+}
+
+.nav-tabs .nav-link {
+    border-radius: 0px;
+}
+
+.tab-content {
+    padding: 0 16px 0 10px;
+    position: relative;
+}
+
+.nav-link {
+    font-size: 14px;
+    color: #4E4E4E;
+    padding: 7px 5px;
+    height: auto;
+    font-weight: 500;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: -3px;
+}
+
+.slose-sidebar {
+    padding: 7px 10px;
+    cursor: pointer;
+}
+
+.slose-sidebar img {
+    width: 24px;
+}
+
+.nav {
+    align-items: center;
+}
+
+.tab__item {
+    font-weight: 500;
+    font-size: 14px;
+    color: #4E4E4E;
+    position: relative;
+    padding: 15px 0px;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.tab__item img {
+    position: absolute;
+    width: 20px;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.body-tab-collapse {
+    padding: 1rem 0px;
+    font-size: 14px;
+}
+
+.check-label-tab {
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+
+.check-label-tab input {
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+}
+
+.check-label-tab label {
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.check-label-tab:nth-child(1) {
+    margin-bottom: 14px;
+}
+
+.tab-collapse__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 10px 7px;
+    background-color: #417CF4;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.tab-collapse__item p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.tab-collapse__item a {
+    color: #fff;
+}
+
+
+/* ban do */
+
+
+/* ban do */
+
+@media only screen and (max-width: 991px) {
+    .news__list {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* form-search */
+    .form-group {
+        width: 100%;
+    }
+    .form-group .select01,
+    .form-group .select02,
+    .form-group input {
+        width: 100%;
+    }
+    .form-submit {
+        width: auto;
+    }
+    /* form-search */
+    .pagination {
+        flex-wrap: wrap;
+    }
+    .pagination span {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+}

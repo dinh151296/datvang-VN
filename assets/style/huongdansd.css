@@ -1,0 +1,114 @@
+/* huong dan su dung style */
+
+.tutorial-list {
+    margin-top: 70px;
+}
+
+.tutorial__item {
+    height: 100%;
+    padding: 40px 20px 20px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06);
+    display: block;
+    transition: 0.2;
+}
+
+.tutorial__item:hover {
+    text-decoration: none;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.tutorial__item img {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.tutorial__item p {
+    font-size: 18px;
+    color: #4E4E4E;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.bannerqa:hover {
+    opacity: 0.7;
+}
+
+
+/* hướng dẫn sd và tra cứu page */
+
+.page-body {
+    padding: 50px 0 70px;
+}
+
+.title__page {
+    font-size: 24px;
+    color: #4E4E4E;
+}
+
+.body {
+    margin-top: 26px;
+}
+
+.body__title {
+    font-size: 18px;
+    color: #4E4E4E;
+    margin-bottom: 8px;
+}
+
+.body p {
+    font-size: 16px;
+    color: #4E4E4E;
+}
+
+.body span {
+    font-style: italic;
+    color: #fa3e3e;
+    margin: 10px 0px;
+    display: block;
+}
+
+.body p span.option {
+    display: inline-block;
+    color: #4E4E4E;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.body img {
+    display: block;
+    margin: 20px auto;
+    max-width: 1100px;
+    width: 100%;
+}
+
+
+/* hướng dẫn sd và tra cứu page */
+
+
+/* responsive */
+
+@media only screen and (max-width: 991px) {
+    .row .mb-20 {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .tutorial-list {
+        margin-top: 40px;
+    }
+    .page-body {
+        padding: 30px 0 40px;
+    }
+    .title__page {
+        font-size: 22px;
+    }
+    .body img {
+        width: 100%;
+    }
+}
+
+
+/* responsive */

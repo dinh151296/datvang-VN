@@ -1,0 +1,136 @@
+/* =========quy trình đầu tư dự án style======= */
+
+.page__content {
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.blogs-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog__item {
+    width: calc(100%/2 - 15px);
+    border-radius: 8px;
+    border: 1px solid #EBEBEB;
+    margin-bottom: 30px;
+}
+
+.blog__inner {
+    padding: 10px;
+}
+
+.blog__inner img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.blog__inner h3 {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #4E4E4E;
+}
+
+.blog__inner h3 a {
+    color: #4E4E4E;
+    transition: 0.2s;
+}
+
+.blog__inner h3 a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.blog__inner p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #767676;
+}
+
+.blog__item-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #EBEBEB;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+}
+
+.date img {
+    width: 16px;
+}
+
+.date span {
+    font-size: 16px;
+    color: #777777;
+    margin-left: 3px;
+}
+
+.blog__item-bottom a {
+    font-size: 16px;
+    color: #E8513D;
+}
+
+.blog__item-bottom a img {
+    width: 15px;
+}
+
+
+/* quy trình đầu tư dự án detail */
+
+.blog-detail h3 {
+    font-size: 24px;
+    color: #4E4E4E;
+    margin-bottom: 20px;
+}
+
+.blog-detail p {
+    margin-top: 24px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #4E4E4E;
+}
+
+.text-highlight p {
+    color: #E8513D;
+}
+
+.text-highlight p a {
+    color: #313182;
+    font-weight: 600;
+}
+
+.text-highlight p span {
+    font-weight: 600;
+}
+
+
+/* quy trình đầu tư dự án detail */
+
+@media only screen and (max-width: 767px) {
+    .page__content {
+        margin: 40px 0px;
+    }
+    .bannerq-a {
+        margin: 0px 0 50px;
+    }
+    .blog__item {
+        width: 100%;
+    }
+    .blog__item-bottom a {
+        font-size: 14px;
+    }
+    .blog-detail h3 {
+        font-size: 20px;
+    }
+    .blog-detail p {
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,173 @@
+/* =========quy chế quản lý QH-KT style========= */
+
+.page__content {
+    margin-top: 70px;
+}
+
+.blogs-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog__item {
+    width: calc(100%/2 - 15px);
+    border-radius: 8px;
+    border: 1px solid #EBEBEB;
+    margin-bottom: 30px;
+}
+
+.blog__inner {
+    padding: 10px;
+}
+
+.blog__inner img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.blog__inner h3 {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #4E4E4E;
+}
+
+.blog__inner h3 a {
+    color: #4E4E4E;
+    transition: 0.2s;
+}
+
+.blog__inner h3 a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.blog__inner p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #767676;
+}
+
+
+/* .pagination */
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination span {
+    font-size: 16px;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.pagination span:hover {
+    opacity: 0.7;
+}
+
+.pagination .is__active {
+    background-color: #E8513D;
+    border-color: #E8513D;
+    color: #fff;
+}
+
+
+/* .pagination */
+
+
+/* =========quy che quan ly QH-KT details========= */
+
+.blog-detail h3 {
+    font-size: 24px;
+    color: #4E4E4E;
+    margin-bottom: 20px;
+}
+
+.blog-detail span.blog__desc {
+    font-size: 16px;
+    font-style: italic;
+    color: #777777;
+    margin-top: 25px;
+}
+
+.blog-detail p span {
+    font-weight: 600;
+    margin-top: 20px;
+    display: block;
+}
+
+.blog-detail p {
+    font-size: 16px;
+    color: #4E4E4E;
+    font-weight: 400;
+}
+
+.blog__document {
+    margin-top: 40px;
+}
+
+.document__title {
+    display: flex;
+    font-size: 16px;
+    color: #4E4E4E;
+}
+
+.document__title p {
+    padding: 14px;
+    border: 1px solid #DDDDDD;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.download {
+    padding: 14px;
+    cursor: pointer;
+}
+
+.download img {
+    width: 22px;
+}
+
+.download span {
+    color: #E85C3D;
+}
+
+
+/* =========quy che quan ly QH-KT details========= */
+
+@media only screen and (max-width: 767px) {
+    .pagination {
+        flex-wrap: wrap;
+    }
+    .pagination span {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .bannerq-a {
+        margin: 0px 0 50px;
+    }
+    .blog__item {
+        width: 100%;
+    }
+    .blog__item-bottom a {
+        font-size: 14px;
+    }
+    .blog-detail h3 {
+        font-size: 20px;
+    }
+    .blog-detail p {
+        margin-top: 15px;
+    }
+}

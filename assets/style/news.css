@@ -1,0 +1,243 @@
+/* Tin quy hoạch, tin dự án Style */
+
+.page__content {
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.blogs-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog__item {
+    width: calc(100%/2 - 15px);
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.blog__item .blog__item-img {
+    overflow: hidden;
+}
+
+.blog__item .blog__item-img img {
+    width: 100%;
+    transition: 0.2s;
+    border-radius: 8px;
+}
+
+.blog__item .blog__item-img:hover img {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+.blog__item h3 a {
+    font-size: 18px;
+    color: #4E4E4E;
+    transition: 0.2s;
+    display: block;
+}
+
+.blog__item h3 a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.blog__content {
+    font-size: 16px;
+    color: #767676;
+    margin-top: 15px;
+}
+
+.blog__loadmore {
+    margin-top: 15px;
+}
+
+.blog__loadmore a {
+    font-size: 16px;
+    color: #122442;
+}
+
+.blog__loadmore a img {
+    max-width: 16px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.date img {
+    width: 16px;
+}
+
+.date span {
+    font-size: 16px;
+    color: #777777;
+    margin-left: 3px;
+}
+
+
+/* ========blog details======== */
+
+.blog__title {
+    font-size: 24px;
+    color: #4E4E4E;
+    margin-bottom: 15px;
+}
+
+.blog__detail-content {
+    font-size: 16px;
+    color: #4E4E4E;
+    margin-top: 15px;
+}
+
+.blog-detail p {
+    font-size: 16px;
+    color: #4E4E4E;
+    margin-bottom: 30px;
+}
+
+.blog__contact {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.blog__contact a {
+    color: #313182;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.blog__img {
+    margin-top: 30px;
+}
+
+.blog__img img {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.blog__img .img-desc {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #4E4E4E;
+    font-style: italic;
+    display: block;
+    text-align: center;
+}
+
+.blog__info {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #4E4E4E;
+}
+
+.blog__info span {
+    font-weight: 700;
+}
+
+.text-highlight {
+    margin-top: 30px;
+}
+
+.text-highlight p {
+    color: #E8513D;
+}
+
+.text-highlight p a {
+    color: #313182;
+    font-weight: 600;
+}
+
+.text-highlight p span {
+    font-weight: 600;
+}
+
+.author__bottom {
+    margin-top: 30px;
+    text-align: right;
+    font-size: 16px;
+    color: #4E4E4E;
+    font-weight: 500;
+    margin-bottom: 0px !important;
+}
+
+
+/* ========blog details======== */
+
+
+/* quy hoach Phu Xuyen - details */
+
+.px-detail {
+    margin-top: 30px;
+}
+
+.px-detail p {
+    font-size: 16px;
+    color: #4E4E4E;
+    margin-bottom: 15px;
+}
+
+.px-detail span {
+    font-weight: 700;
+}
+
+
+/* quy hoach Phu Xuyen - details */
+
+
+/* start - tin dự án style */
+
+.project-desc {
+    margin-top: 30px;
+}
+
+.project-desc p {
+    font-size: 16px;
+    color: #4E4E4E;
+}
+
+.product {
+    display: flex;
+    align-items: flex-start;
+}
+
+.product-list {
+    padding-left: 10px;
+}
+
+
+/* end - tin dự án style */
+
+
+/* tin tuc chung detail style */
+
+
+/* tin tuc chung detail style */
+
+@media only screen and (max-width: 767px) {
+    .page__content {
+        margin: 40px 0px;
+    }
+    .blog__item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .blog__title {
+        font-size: 20px;
+    }
+    .blog__img img {
+        width: 100%;
+        max-width: 100%;
+    }
+    .blog-detail {
+        margin-bottom: 15px;
+    }
+}
